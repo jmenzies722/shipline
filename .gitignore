@@ -1,0 +1,20 @@
+# secrets
+.env
+.env.*
+!.env.example
+
+# go
+bin/
+dist/
+*.exe
+coverage.out
+
+# terraform (when we get there)
+.terraform/
+terraform.tfstate
+terraform.tfstate.backup
+*.tfvars
+!.tfvars.example
+
+# portfolio capture (redacted, still not committed)
+.portfolio/sessions/

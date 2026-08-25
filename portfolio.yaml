@@ -1,0 +1,24 @@
+# Evidence captured while building. Claims are measurements; the reasoning
+# belongs in the per-phase written post, in Josh's words.
+# Every evidence item must name the command that produced it.
+
+slug: shipline
+name: Shipline
+repo: ""
+
+availability: private
+
+summary: >-
+  A Go HTTP service taken from a laptop process to a public URL on AWS,
+  through Docker, GitHub Actions, and Terraform — one layer at a time.
+
+stack: [Go, Docker, GitHub Actions, Terraform, AWS]
+
+phases:
+  - id: 1
+    name: A Go process that runs on this machine
+    status: in-progress
+    steps_done: 0
+    steps_total: 4
+
+evidence: []
