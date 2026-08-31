@@ -3,7 +3,9 @@
 .env.*
 !.env.example
 
-# go
+# go — `go build` writes ./shipline; `go test -c` writes *.test
+/shipline
+*.test
 bin/
 dist/
 *.exe
@@ -11,8 +13,9 @@ coverage.out
 
 # terraform (when we get there)
 .terraform/
-terraform.tfstate
-terraform.tfstate.backup
+*.tfstate
+*.tfstate.backup
+errored.tfstate
 *.tfvars
 !.tfvars.example
 

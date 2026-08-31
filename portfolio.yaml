@@ -9,8 +9,9 @@ repo: ""
 availability: private
 
 summary: >-
-  A Go HTTP service taken from a laptop process to a public URL on AWS,
-  through Docker, GitHub Actions, and Terraform — one layer at a time.
+  A personal status board for URLs you actually care about, taken from a
+  laptop process to a public URL on AWS through Docker, GitHub Actions, and
+  Terraform.
 
 stack: [Go, Docker, GitHub Actions, Terraform, AWS]
 
